@@ -1,0 +1,38 @@
+*{
+    background-color: gainsboro;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookmark{
+    margin-left: 200px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+}
+
+.search-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-div input{
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    color: white;
+    padding: 5px;
+}
+
+.search-btn{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 3px;
+}
